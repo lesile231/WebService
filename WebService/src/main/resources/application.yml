@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://localhost:3306/bluewalnut
+    username: fds
+    password: illootechrnd
+    
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
